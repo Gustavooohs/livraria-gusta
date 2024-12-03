@@ -25,8 +25,6 @@ O backend é organizado nas seguintes camadas:
 
 ---
 
-## Configuração e Instalação
-
 ### Pré-requisitos
 - **Node.js** (>= 14)
 - **Gerenciador de Pacotes**: npm ou yarn
@@ -36,3 +34,6 @@ O backend é organizado nas seguintes camadas:
 1. baixe o repositório.
 2. Instale as dependências com `npm install`.
 3. Execute `npx ts-node src/server.ts` para iniciar o servidor.
+
+### Repositório Front-End:
+- https://github.com/Gustavooohs/frontend
