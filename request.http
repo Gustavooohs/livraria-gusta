@@ -1,0 +1,27 @@
+### Get All Users
+
+GET http://localhost:3000/users
+Content-Type: application/json
+
+
+### Register User
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name": "Gustavo",
+    "email": "gu.ghenrique@hotmail.com",
+    "password": "Gustavo4NB"
+}
+
+
+### Login User
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "gu.ghenrique@hotmail.com",
+    "password": "Gustavo4NB"
+}
