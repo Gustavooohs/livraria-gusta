@@ -1,7 +1,6 @@
 import { Pool } from 'pg';
 import pool from '../config/database';
 import { User } from '../models/userModel';
-
 export class UserRepository {
     private pool: Pool;
     constructor() {
